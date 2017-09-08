@@ -32,10 +32,10 @@
             <div id="addressBar" class="col-md-6 col-xs-12">
                 <form onsubmit="SubmitSearch(); return false;">
                     <div class="form-group">
-                        <input type="text" id="searchBar" class="form-control" placeholder="Search DuckDuckGo... " autofocus /> </div>
+                        <input type="text" id="searchBar" class="form-control" placeholder="Search DuckDuckGo..." autofocus /> </div>
                 </form>
             </div>
-            <div id="timeBlock" class="text-right time-frame col-md-3 col-xs-12 ">
+            <div id="timeBlock" class="text-right time-frame col-md-3 col-xs-12">
                 <h4 id="time-part">
                     </h4>
                 <script>
@@ -44,22 +44,41 @@
             </div>
         </div>
         <div class="row listing-group ">
-            <!-- Begin SWC group -->
+            <!-- Begin Favorites group -->
             <div class="favorites col-md-3 first-group ">
                 <div id="1 " class="group-label text-center ">
-                    <h3>SWC</h3> </div>
+                    <h3>Favorites</h3> </div>
                 <ul id="site-list-1 " class="site-listing " hidden="true ">
-                    <a href="https://orangespot.swc.com">
-                        <li class="top-listing list "> <img class="icon img-responsive img-thumbnail " src="images/swc-icons/orangespot.png" /> <span class="link-text vcenter ">OrangeSpot</span> </li>
+                    <a href="https://www.reddit.com ">
+                        <li class="top-listing list "> <img class="icon img-responsive img-thumbnail " src="images/favorites-icons/reddit-big.png " /> <span class="link-text vcenter ">Reddit</span> </li>
                     </a>
-                    <a href="https://ww5.autotask.net">
-                        <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/swc-icons/at.png " /> <span class="link-text vcenter ">AutoTask</span> </li>
+                    <a href="https://www.facebook.com ">
+                        <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/favorites-icons/facebook.png " /> <span class="link-text vcenter ">Facebook</span> </li>
                     </a>
-                    <a href="https://swctech.atlassian.net">
-                        <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/swc-icons/jirra.png" /> <span class="link-text vcenter ">Jira</span> </li>
+                    <a href="https://www.twitter.com ">
+                        <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/favorites-icons/twitter.png " /> <span class="link-text vcenter ">Twitter</span> </li>
                     </a>
-                    <a href="https://www.paycomonline.net">
-                        <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/swc-icons/paycom.png" /> <span class="link-text vcenter ">PayCom</span> </li>
+                    <a href="https://www.amazon.com ">
+                        <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/favorites-icons/amazon-white.png " /> <span class="link-text vcenter ">Amazon</span> </li>
+                    </a>
+                </ul>
+            </div>
+            <!-- Begin media group -->
+            <div class="favorites col-md-3 col-md-offset-1 ">
+                <div id="2 " class="group-label text-center ">
+                    <h3>Media</h3> </div>
+                <ul id="site-list-2 " class="site-listing " hidden="true ">
+                    <a href="https://www.netflix.com ">
+                        <li class="top-listing list "> <img class="icon img-responsive img-thumbnail " src="images/media-icons/netflix.png " /> <span class="link-text vcenter ">Netflix</span> </li>
+                    </a>
+                    <a href="https://www.hulu.com ">
+                        <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/media-icons/hulu.png " /> <span class="link-text vcenter ">Hulu</span> </li>
+                    </a>
+                    <a href="https://www.hbonow.com ">
+                        <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/media-icons/hbonow.png " /> <span class="link-text vcenter ">HBO Now</span> </li>
+                    </a>
+                    <a href="https://www.youtube.com/feed/subscriptions ">
+                        <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/media-icons/youtube.png " /> <span class="link-text vcenter ">Youtube</span> </li>
                     </a>
                 </ul>
             </div>
@@ -69,57 +88,37 @@
                     <h3>Developer Tools</h3> </div>
                 <ul id="site-list-3 " class="site-listing " hidden="true ">
                     <a href="https://www.github.com ">
-                        <li class="top-listing list "> <img class="icon img-responsive img-thumbnail " src="images/dev-icons/github.png " /> <span class="link-text vcenter ">GitHub</span> </li>
+                        <li class="top-listing list "> <img class="icon img-responsive img-thumbnail " src="images/dev-icons/github-white.png " /> <span class="link-text vcenter ">GitHub</span> </li>
                     </a>
-                    <a href="https://www.portal.azure.com ">
-                        <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/dev-icons/windows-azure.png" /> <span class="link-text vcenter ">Azure</span> </li>
+                    <a href="https://www.codeschool.com ">
+                        <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/dev-icons/codeschool.png " /> <span class="link-text vcenter ">Code School</span> </li>
                     </a>
-                    <a href="https://www.tfs.swc.com">
-                        <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/dev-icons/vs.png" /> <span class="link-text vcenter ">TFS</span> </li>
+                    <a href="https://www.pluralsight.com">
+                        <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/dev-icons/pluralsight.png" /> <span class="link-text vcenter ">Pluralsight</span> </li>
                     </a>
                     <a href="https://www.stackoverflow.com ">
                         <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/dev-icons/stackoverflow.png " /> <span class="link-text vcenter ">StackOverflow</span> </li>
                     </a>
                 </ul>
             </div>
-            <!-- Begin Misc group -->
-            <div class="favorites col-md-3 col-md-offset-1 ">
-                <div id="2 " class="group-label text-center ">
-                    <h3>Misc</h3> </div>
-                <ul id="site-list-2 " class="site-listing " hidden="true ">
-                    <a href="https://www.facebook.com ">
-                        <li class="top-listing list "> <img class="icon img-responsive img-thumbnail " src="images/favorites-icons/facebook.png " /> <span class="link-text vcenter ">Facebook</span> </li>
-                    </a>
-                    <a href="https://www.reddit.com ">
-                        <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/favorites-icons/reddit.png " /> <span class="link-text vcenter ">Reddit</span> </li>
-                    </a>
-                    <a href="https://www.pluralsight.com ">
-                        <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/dev-icons/pluralsight.png " /> <span class="link-text vcenter ">Pluralsight</span> </li>
-                    </a>
-                    <a href="https://www.youtube.com/feed/subscriptions ">
-                        <li class="list "> <img class="icon img-responsive img-thumbnail " src="images/media-icons/youtube.png " /> <span class="link-text vcenter ">Youtube</span> </li>
-                    </a>
-                </ul>
-            </div>
-        </div>
-        <!-- End group link listing; Begin custom links -->
-        <div class="row ">
-            <div class="text-center center server-links ">
-                <div class="col-md-3 server-link ">
-                    <a href="#"></a>
-                </div>
-                <div class="col-md-3 server-link ">
-                    <a href="#"></a>
-                </div>
-                <div class="col-md-3 server-link ">
-                    <a href="#"></a>
-                </div>
-                <div class="col-md-3 server-link ">
-                    <a href="#"></a>
+            <!-- End group link listing; Begin custom links -->
+            <div class="row">
+                <div class="text-center center server-links">
+                    <div class="col-md-3 server-link">
+                        <a href="#"></a>
+                    </div>
+                    <div class="col-md-3 server-link">
+                        <a href="#"></a>
+                    </div>
+                    <div class="col-md-3 server-link">
+                        <a href="#"></a>
+                    </div>
+                    <div class="col-md-3 server-link">
+                        <a href="#"></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 </body>
 <script>
     $(document).load(onLoad());
